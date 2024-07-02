@@ -17,7 +17,7 @@ public class HelloWorldController {
 		return "MENTALIDADES:\n1-Orientação ao futuro\n2-Responsabilidade Pessoal\n3-Mentalidade de Crescimento\n4-Persistência\n\nHABILIDADES:\n1-Trabalho em Equipe\n2-Atenção aos Detalhes\n3-Proatividade\n4-Comunicação";
 	
 	}
-	@GetMapping("obj")
+	@GetMapping("/obj")
 	public String objetivo() {
 		return "Aprender com maestria tudo sobre SpringBoot!!";
 	}
